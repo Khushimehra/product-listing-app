@@ -146,8 +146,4 @@ Khushi Mehra
 
 ---
 
-## 📌 Note
 
-This project was built as part of a full-stack assignment to demonstrate backend logic, API design, and frontend integration.
-
----
