@@ -15,11 +15,14 @@ function AddProduct({ refresh }) {
     }
 
     try {
-      await axios.post("http://localhost:5000/products", {
-        name,
-        price,
-        category,
-      });
+      await axios.post(
+        "https://product-listing-app-3vb9.onrender.com/products",
+        {
+          name,
+          price,
+          category,
+        }
+      );
 
       setName("");
       setPrice("");
